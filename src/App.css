@@ -1,0 +1,62 @@
+
+.App{
+ color: #fff;
+ border-radius: 10px; 
+ display: flex;
+ justify-content: center;
+ background-color:rgb(69, 69, 70);
+
+
+
+}
+body{
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(54, 54, 54);
+ 
+}
+.articulos{
+  display: flex; 
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+  padding: 50px;
+ 
+
+}
+ .articulos > article{
+  border-radius: 10px;
+  width: 200px;
+  padding: 5px;
+ 
+
+} 
+.datos{ 
+  background-color: rgb(96, 62, 116);
+} 
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.hobbies{
+  background-color: aqua; 
+}
+.list2{
+  background-color: cadetblue;
+  list-style: none;
+}
+
+.list3{
+  background-color: rgb(0, 195, 255);
+ 
+}
+.list4{
+  background-color: rgb(98, 0, 255);
+ 
+}
